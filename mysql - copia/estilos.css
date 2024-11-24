@@ -1,0 +1,239 @@
+body {
+    font-family: cursive;
+    background-color: darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+    
+}
+body{
+    background-image: url('aragon.jpg');
+     background-size: cover;
+    background-position: center;
+       background-repeat: no-repeat; 
+       height: 100vh; 
+       margin: 0; 
+}
+
+.login-container {
+    font-family: cursive;
+    background-color: darkcyan;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.login-form .form-group {
+   font-family: cursive;
+    margin-bottom: 15px;
+}
+
+.login-form label {
+    font-family: cursive;
+    color: darkblue;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.login-form input[type="text"], .login-form input[type="password"] {
+    font-family: cursive;
+   
+    
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.login-form .btn-submit {
+    font-family: cursive;
+    background-color: blue;
+    color: powderblue;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+.login-form .btn-submit:hover {
+    font-family: cursive;
+    background-color: orchid;
+}
+
+.centrar {
+    align-items: center;
+    margin: 0;
+    font-size: 24px;
+    background-color: darkgray;
+}
+
+body {
+    font-family: cursive;
+    background-color: thistle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: slateblue;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.welcome-text {
+    
+    margin-bottom: 20px;
+}
+
+.formulario .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.formulario label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.formulario input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-submit, .btn-reset {
+    background-color: turquoise;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 48%;
+    font-size: 16px;
+}
+
+.btn-submit:hover, .btn-reset:hover {
+    background-color: teal;
+}
+
+.uno{
+    
+    align-items:center;
+
+}
+/* Reseteo de Estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: 'cursive', sans-serif;
+    background-color: white;
+    height: 100%;
+}
+
+/* Estilos de Encabezado */
+header {
+    background-color: #2196f3;
+    color: pink;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos de Navegación */
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+oda {
+    margin: 0 15px;
+}
+
+oda {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos del Contenido Principal */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: wheat;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+main h2 {
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+main p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+    color: #666;
+}
+
+main a {
+    color: #2196f3;
+    text-decoration: none;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos de Pie de Página */
+footer {
+    background-color: #2196f3;
+    color: pink;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
